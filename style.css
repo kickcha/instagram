@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 100vh;
+  border: 1px solid yellow;
+}
+
+.post {
+  position: relative;
+  height: 25px;
+  color: white;
+  z-index: 2;
+}
+
+.poster {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.feed {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.text {
+  position: relative;
+  top: 11px;
+}
+
+.feed_id {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.id_round {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.id_img {
+  width: 70%;
+  height: 70%;
+}
+
+.id_box {
+  display: flex;
+}
+
+.id_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+}
+
+.id_name {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0;
+}
+
+.place {
+  font-size: 12px;
+  padding: 0;
+}
+
+.more_details {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.feed_picture img {
+  width: 100%;
+  display: flex;
+}
+
+.emoticon_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+}
+
+.emoticon_box2 {
+  display: flex;
+}
+.emoticon_box2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  margin: 0px;
+}
+
+.bookmark_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.feed_like_box {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  left: 8px;
+  padding: 0 16px 0 8px;
+}
+
+.feed_like_box .feed_like {
+  display: flex;
+  position: relative;
+  left: 5px;
+  font-size: 14px;
+}
+
+.feed_like_picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: 15px;
+  left: 10px;
+}
+
+.feed_like_peolpe {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.feed_like {
+  color: white;
+}
+
+.comments_container {
+  display: flex;
+  height: 100px;
+}
+
+.comments2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  left: 8px;
+  padding: 0 16px 0 8px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #8e8e8e;
+  letter-spacing: 0.2px;
+}
+
+.my_profile_box2 img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.feed_footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+  font-size: 23px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_profile {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #b0abab;
+}
