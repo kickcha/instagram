@@ -61,34 +61,31 @@
 }
 
 .id_box {
-  position: relative;
   display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 .id_container {
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  transform: translate(-100%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: auto;
   color: white;
 }
 
 .id_name {
   font-weight: bold;
   font-size: 14px;
-  padding: 0;
+  margin-bottom: 4px;
 }
 
 .place {
   font-size: 12px;
-  padding: 0;
 }
 
 .more_details {
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(-50%, -50%);
+  margin-left: 8px;
   color: white;
 }
 
